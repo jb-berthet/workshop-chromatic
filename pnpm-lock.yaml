@@ -50,6 +50,9 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.0
         version: 5.0.3(svelte@5.20.2)(vite@6.1.1)
+      chromatic:
+        specifier: ^11.25.2
+        version: 11.25.2
       eslint:
         specifier: ^9.18.0
         version: 9.20.1
