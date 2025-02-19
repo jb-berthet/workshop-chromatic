@@ -11,6 +11,10 @@
 	background-color: #1f3d38;
 	color: white;
 }
+.dark .storybook-button--primary {
+	background-color: #72e2d0;
+	color: black;
+}
 .storybook-button--secondary {
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 	background-color: transparent;
