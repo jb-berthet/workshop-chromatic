@@ -2,7 +2,6 @@
 	import { defineMeta } from '@storybook/addon-svelte-csf';
 	import Button from './Button.svelte';
 	import { fn } from '@storybook/test';
-	import { allModes } from '../../.storybook/modes.js';
 
 	// More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 	const { Story } = defineMeta({
@@ -18,15 +17,6 @@
 		},
 		args: {
 			onClick: fn()
-		},
-		parameters: {
-			layout: 'centered',
-			chromatic: {
-				modes: {
-					light: allModes['light'],
-					dark: allModes['dark']
-				}
-			}
 		}
 	});
 </script>
